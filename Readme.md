@@ -2,16 +2,25 @@
 
 <h1>FlowCE: First Multi-Dimensional Evaluation of Flowchart Comprehension for Multimodal Large Language Models</h1>
 
-</div>
 
-<p bold>
+
+<a href="https://arxiv.org/pdf/2406.10057"><img src="https://img.shields.io/badge/Paper-PDF-orange"></a>   [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE) [![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE)
+
+</div>
+<p>
 
    With the development of Multimodal Large Language Models (MLLMs) technology, its general capabilities are increasingly powerful. To evaluate the various abilities of MLLMs, numerous evaluation systems have emerged. But now there is still a lack of a comprehensive method to evaluate MLLMs in the tasks related to flowcharts, which are very important in daily life and work. We propose the first comprehensive method, FlowCE, to assess MLLMs across various dimensions for tasks related to flowcharts. It encompasses evaluating MLLMs’ abilities in Reasoning, Localization Recognition, Information Extraction, Logical Verification, and Summarization on flowcharts. However, we find that even the GPT4o model achieves only a score of 56.63. Among open-source models, Phi-3-Vision obtained the highest score of 49.97. We hope that FlowCE can contribute to future research on MLLMs for tasks based on flowcharts.
 </p>
 
-This is the official repository for paper:First Multi-Dimensional Evaluation of Flowchart Comprehension for Multimodal Large Language Models [arxiv link](https://arxiv.org/pdf/2406.10057) 
 
-## FlowCE Benchmark Datast
+## Release
+- [ ]  release the evaluation script.  
+- [x] 🔥🔥🔥 We release the dataset (https://github.com/360AILABNLP/FlowCE/tree/main/flowce_benchmark).
+
+**Usage and License Notices**: The data, code, and checkpoint are intended and licensed for research use only. They are also restricted to use that follow the license agreement of LLaMA, Vicuna, GPT-4, Qwen, and LLaVA. 
+
+
+## FlowCE Benchmark Dataset
 
 FlowCE is built upon 500 real-world flowcharts, ensuring an ample diversity in each chart and across five dimensions in real flowchart scenarios, including reasoning, information extraction, localization recognition, summarization, and logical verification.
 
@@ -41,9 +50,6 @@ covers 5 evaluation dimensions. Each evaluation dimension contains human-annotat
 
 <img width="811" alt="image" src="https://github.com/user-attachments/assets/98c402fc-c22c-48c7-8a8c-212e1ea2cec8">
 
-## one more thing..
-
-The evaluation code will be published 
 
 ## License
 
