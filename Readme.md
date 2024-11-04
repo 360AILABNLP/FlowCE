@@ -2,6 +2,8 @@
 
 This is the official repository for paper:First Multi-Dimensional Evaluation of Flowchart Comprehension for Multimodal Large Language Models [arxiv link](https://arxiv.org/pdf/2406.10057) 
 
+With the development of Multimodal Large Language Models (MLLMs) technology, its general capabilities are increasingly powerful. To evaluate the various abilities of MLLMs, numerous evaluation systems have emerged. But now there is still a lack of a comprehensive method to evaluate MLLMs in the tasks related to flowcharts, which are very important in daily life and work. We propose the first comprehensive method, FlowCE, to assess MLLMs across various dimensions for tasks related to flowcharts. It encompasses evaluating MLLMs’ abilities in Reasoning, Localization Recognition, Information Extraction, Logical Verification, and Summarization on flowcharts. However, we find that even the GPT4o model achieves only a score of 56.63. Among open-source models, Phi-3-Vision obtained the highest score of 49.97. We hope that FlowCE can contribute to future research on MLLMs for tasks based on flowcharts.
+
 
 ## FlowCE Benchmark Datast
 
@@ -13,12 +15,11 @@ The full datasets can be obtained from the following address: https://github.com
 
 For your attention: The image data used in this work is solely for scientific research purposes, and only the source link address for each image is made available. if you want to get the images, just download these images from the 5 different task image urls file given. 
 
-
-## Process of creating and evaluating FlowCE.
+## Process of creating and evaluating FlowCE
 
 ![route](https://github.com/user-attachments/assets/0671251c-46c0-4fad-8f3f-f62f190a7b05)
 
-##  Data samples of FlowCE
+## Data samples of FlowCE
 
 <img width="760" alt="image" src="https://github.com/user-attachments/assets/dc3501c6-8549-47f3-bd8d-31bab9edb332">
 
@@ -36,6 +37,4 @@ covers 5 evaluation dimensions. Each evaluation dimension contains human-annotat
 
 ## one more thing..
 
-The evaluation code will be published soon..
-
-
+The evaluation code will be published 
